@@ -1,0 +1,166 @@
+/* Importar fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header-box {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.header-left > img {
+    margin-right: 20px;
+}
+
+.header-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-center form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-center input[type="text"] {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+#lupa {
+    position: absolute;
+    right: 10px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    pointer-events: none;
+    
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right img {
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-right img:hover {
+    opacity: 0.7;
+}
+.container{
+    background-color: #f9f9f9;
+    display: flex;
+}
+.video{
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 952px;
+    height: 537px;
+}
+.video > h2{
+    size: 20px;
+    
+}
+.recomendacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+  
+    
+    
+}
+.rec{
+    display: flex;
+    padding-left: 20px;
+    
+}
+
+.texto > h2{
+    
+    padding-left: 10px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.41px;
+text-align: left;
+justify-content: center;
+
+}
+.texto > p{
+    padding-left: 10px;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+text-align: left;
+color: #515151;
+}
+.channel {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    padding: 10px; /* Adiciona algum espaçamento interno, se necessário */
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: auto; /* Mantém o tamanho original da imagem */
+    height: auto; /* Mantém o tamanho original da imagem */
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info p:first-of-type {
+    font-weight: bold;
+}
+
+.channel img {
+    width: auto; /* Mantém o tamanho original da imagem */
+    height: auto; /* Mantém o tamanho original da imagem */
+    cursor: pointer;
+}
+
+.channel img:hover {
+    opacity: 0.7;
+}
+
+.content p:first-of-type {
+    font-weight: bold;
+}
